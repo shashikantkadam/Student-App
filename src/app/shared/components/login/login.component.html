@@ -1,0 +1,23 @@
+<main class="d-flex justify-content-center align-items-center">
+    <form class="form card">
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="userId"><strong> UserId * </strong></label>
+                    <div class="input-group mb-2">
+    
+                        <input type="text" #UserId id="UserId" required  ngModel name="UserId" class="form-control">
+                      </div>
+                </div>
+                <div class="form-group">
+                    <label for="password"><strong> Password * </strong></label>
+                    <div class="input-group mb-2">
+                      
+                        <input type="password" #password  id="password" name="password" ngModel required class="form-control" >
+                      </div>
+                </div>
+                <div class="form-group text-right">
+                    <button  class="btn btn-info" (click)="logInToApp(UserId.value,password.value)">LogIn</button>
+                </div>
+            </div>  
+    </form>
+</main>

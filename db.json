@@ -1,0 +1,31 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "jhon",
+      "password": "jhon@123",
+      "gender": "Male",
+      "dob": "2023-02-17",
+      "address": "pune",
+      "subjectEnroll": "english"
+    },
+    {
+      "id": 2,
+      "name": "jen",
+      "password": "jendoers",
+      "gender": "Male",
+      "dob": "2023-02-24",
+      "address": "mumbai",
+      "subjectEnroll": "chemistry"
+    },
+    {
+      "id": 3,
+      "name": "july",
+      "password": "12345678",
+      "gender": "Female",
+      "dob": "2023-02-10",
+      "address": "nagpur",
+      "subjectEnroll": "math"
+    }
+  ]
+}

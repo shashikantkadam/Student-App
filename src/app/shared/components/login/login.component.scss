@@ -1,0 +1,26 @@
+ 
+main{
+    height:100vh;
+    background-color: #000;
+    background-image:url("../../../../assets/images/loginBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: centerd;
+    width:100%;
+    position : fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    >.form{
+        width:500px
+    }
+    &::before{
+        content: '';
+        background-color: rgba($color: #000, $alpha : .5);
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
