@@ -1,4 +1,8 @@
 # StudentApp
+# instructions :
+This Appliction is only for the admin.
+for login you have to use 'admin' as userId and 'admin@123' as password.
+Before running this application Run json-server `json-server --w db.json`.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
